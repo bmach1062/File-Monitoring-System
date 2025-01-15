@@ -24,3 +24,20 @@ This project aims to simulate monitoring a file directory for cases of added fil
   - Testing and manipulating file directories in a Linux/Unix environment.
 - Problem Solving
   - Addressing challenges in file access and handling concurrent changes. 
+
+## Steps to Run Code
+1. **Clone the Repository**  
+   Run the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/bmach1062/File-Monitoring-System.git
+2. **Navigate to the IDS Directory**  
+   Change into the project directory:
+   ```bash
+   cd File-Monitoring-System/IDS
+2. **Run the Program**  
+   Start monitoring the files from "monitored":
+   ```bash
+   python3 ids.py
+
+## Added Files Scenario
+- When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file. 
