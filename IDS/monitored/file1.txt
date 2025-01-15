@@ -1,0 +1,21 @@
+# Application Configuration File
+[General]
+AppName=SampleApp
+Version=1.0.0
+Author=Brian Mach
+
+[Network]
+Host=127.0.0.1
+Port=8080
+Protocol=HTTP
+
+[Logging]
+LogLevel=INFO
+LogFile=app.log
+EnableRotation=True
+
+[Database]
+DBHost=localhost
+DBUser=admin
+DBPassword=securepassword123
+DBName=sampledb
