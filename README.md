@@ -39,5 +39,6 @@ This project aims to simulate monitoring a file directory for cases of added fil
    ```bash
    python3 ids.py
 
+![before ctrlc](after_ctrlc.png
 ## Added Files Scenario
 - When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file. 
