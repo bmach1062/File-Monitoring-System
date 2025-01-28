@@ -39,6 +39,10 @@ This project aims to simulate monitoring a file directory for cases of added fil
    ```bash
    python3 ids.py
 
-![before ctrlc](after_ctrlc.png
+![before ctrlc](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/before_ctrlc.png)
+![program start](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/program_start.png)
+
+* Please note that if you do not see changes to file_changes.log, you should either do ctrl+s to save MODIFIED changes or click on any other file and then click on the file_changes.log file again
 ## Added Files Scenario
-- When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file. 
+- When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file.
+![file added](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/after_file_added.png)
