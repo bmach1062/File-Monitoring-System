@@ -59,4 +59,25 @@ This project aims to simulate monitoring a file directory for cases of added fil
 ## Terminating Program Scenario
 - If you want to terminate the program, simply do "Ctrl+C" to gracefully exit.
 ![terminating program](https://github.com/bmach1062/File-Monitoring-System/blob/cd00d510990fad1f16aa80a301ff106cf9955749/images/after_ctrlc.png)
+
+## Next Steps
+While the project successfully monitors file changes and logs modifications, there are a few areas for improvement:
+1. **Real-Time Log Updates**<br>
+   Currently, if the log file is open, notifications for file deletions do not appear immediately unless the log file tab is closed and reopened or switched back and forth. A future update will ensure real-time log updates without requiring manual refreshes.
+2. **Recursive Directory Monitoring**<br>
+  At the moment, the script only tracks files in the top-level monitored/ directory. A future enhancement will allow the program to monitor subdirectories as well, ensuring complete file tracking.
+3. **Real-Time Notifications**<br>
+  Instead of relying solely on log files, the program could display real-time alerts using:
+        <ul>
+          <li>Desktop notifications when a file is added, modified, or deleted.</li>
+          <li>Email alerts for critical file changes.</li>
+        </ul>
+   
+          
+
+
+
+
+
+
   
