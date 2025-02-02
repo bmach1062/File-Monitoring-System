@@ -68,10 +68,10 @@ While the project successfully monitors file changes and logs modifications, the
   At the moment, the script only tracks files in the top-level monitored/ directory. A future enhancement will allow the program to monitor subdirectories as well, ensuring complete file tracking.
 3. **Real-Time Notifications**<br>
   Instead of relying solely on log files, the program could display real-time alerts using:
-        <ul>
+        <ol>
           <li>Desktop notifications when a file is added, modified, or deleted.</li>
           <li>Email alerts for critical file changes.</li>
-        </ul>
+        </ol>
    
           
 
