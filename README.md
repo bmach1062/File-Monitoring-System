@@ -34,7 +34,7 @@ This project aims to simulate monitoring a file directory for cases of added fil
    Change into the project directory:
    ```bash
    cd File-Monitoring-System/IDS
-2. **Run the Program**  
+3. **Run the Program**  
    Start monitoring the files from "monitored":
    ```bash
    python3 ids.py
@@ -42,7 +42,21 @@ This project aims to simulate monitoring a file directory for cases of added fil
 ![before ctrlc](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/before_ctrlc.png)
 ![program start](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/program_start.png)
 
-* Please note that if you do not see changes to file_changes.log, you should either do ctrl+s to save MODIFIED changes or click on any other file and then click on the file_changes.log file again
+* Please note that if you do not see changes to file_changes.log, you should either do ctrl+s to save MODIFIED changes or click on any other file and then click on the file_changes.log file again.
 ## Added Files Scenario
-- When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file.
+- When you add a new file to the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the newly added file. 
 ![file added](https://github.com/bmach1062/File-Monitoring-System/blob/4477bc4ade034980aeeeb0368c0c2be60abb368c/after_file_added.png)
+
+## Deleted Files Scenario
+- When you delete a file in the "monitored" directory, file_changes.log (under "logs" directory) will update and present a message about the deleted file. 
+![file deleted](https://github.com/bmach1062/File-Monitoring-System/blob/cd00d510990fad1f16aa80a301ff106cf9955749/images/after_file_deleted.png)
+
+## Modified Files Scenario
+- When you modify a file in the "monitored" directory, file_changes.log(under "logs" directory) will update and present a message about the modified file. In this example, we modified file1.txt and get notified about the modification.
+![modifying file](https://github.com/bmach1062/File-Monitoring-System/blob/cd00d510990fad1f16aa80a301ff106cf9955749/images/modification_file1.png)
+![modify message](https://github.com/bmach1062/File-Monitoring-System/blob/cd00d510990fad1f16aa80a301ff106cf9955749/images/after_file_modified.png)
+
+## Terminating Program Scenario
+- If you want to terminate the program, simply do "Ctrl+C" to gracefully exit.
+![terminating program](https://github.com/bmach1062/File-Monitoring-System/blob/cd00d510990fad1f16aa80a301ff106cf9955749/images/after_ctrlc.png)
+  
